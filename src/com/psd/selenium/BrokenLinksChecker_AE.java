@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class BrokenLinksChecker_Impactguru {
+public class BrokenLinksChecker_AE {
 
 	public static void main(String[] args) throws InterruptedException {
 
@@ -23,7 +23,7 @@ public class BrokenLinksChecker_Impactguru {
 		driver.manage().window().maximize();
 
 		// ✅ Open the website
-		driver.get("https://www.impactguru.com/");
+		driver.get("https://automationedge.com/");
 		Thread.sleep(3000);
 
 		// ✅ Get all links
@@ -31,7 +31,7 @@ public class BrokenLinksChecker_Impactguru {
 		System.out.println("Total links found: " + links.size());
 
 		// ✅ Create CSV file
-		String filePath = "BrokenLinksReport_IG.csv";
+		String filePath = "BrokenLinksReport_AE.csv";
 		try (FileWriter writer = new FileWriter(filePath)) {
 			// Write header
 			writer.append("URL,StatusCode,Result\n");
@@ -44,8 +44,8 @@ public class BrokenLinksChecker_Impactguru {
 					writer.append(url).append(",,Skipped\n");
 					continue;
 				}
+
 				try {
-					@SuppressWarnings("deprecation")
 					HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();
 					connection.setRequestMethod("HEAD");
 					connection.connect();
