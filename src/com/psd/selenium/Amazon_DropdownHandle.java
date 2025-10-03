@@ -1,21 +1,26 @@
 package com.psd.selenium;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class SBI_Login {
+public class Amazon_DropdownHandle {
 
 	public static void main(String[] args) throws InterruptedException {
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("https://corp.onlinesbi.sbi/");
+		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
-		WebElement PL_Login = driver.findElement(By.linkText("LOGIN"));
-		PL_Login.click();
+		WebElement e1 = driver.findElement(By.id("searchDropdownBox"));
+		e1.sendKeys(Keys.ARROW_DOWN);
+		e1.sendKeys(Keys.ARROW_DOWN);
+		e1.sendKeys(Keys.ARROW_DOWN);
+		e1.sendKeys(Keys.ARROW_DOWN);
 		Thread.sleep(2000);
-		WebElement Continue_Login = driver.findElement(By.linkText("CONTINUE TO LOGIN"));
-		Continue_Login.click();
+		driver.close();
 
 	}
 
 }
+
+
