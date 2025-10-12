@@ -2,67 +2,217 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-12T11:17:06 IST" name="Default suite" finished-at="2025-10-12T11:18:23 IST" duration-ms="77302">
+  <suite started-at="2025-10-12T18:31:03 IST" name="Default suite" finished-at="2025-10-12T18:32:06 IST" duration-ms="62984">
     <groups>
     </groups>
-    <test started-at="2025-10-12T11:17:06 IST" name="Default test" finished-at="2025-10-12T11:18:23 IST" duration-ms="77302">
-      <class name="com.psd.selenium.Amazon_Search_TwoDimentional2">
-        <test-method signature="amazonsearch_twodimentional(java.lang.String)[pri:0, instance:com.psd.selenium.Amazon_Search_TwoDimentional2@175c2241]" started-at="2025-10-12T11:17:06 IST" name="amazonsearch_twodimentional" data-provider="searchdetails" finished-at="2025-10-12T11:17:23 IST" duration-ms="16849" status="PASS">
+    <test started-at="2025-10-12T18:31:03 IST" name="Default test" finished-at="2025-10-12T18:32:06 IST" duration-ms="62984">
+      <class name="com.psd.selenium.Growtech_Regi_TwoDimentional">
+        <test-method signature="getchregidetails_twodimentional(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.psd.selenium.Growtech_Regi_TwoDimentional@411f53a0]" started-at="2025-10-12T18:31:03 IST" name="getchregidetails_twodimentional" data-provider="gtechregidetails" finished-at="2025-10-12T18:31:18 IST" duration-ms="14588" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Mens T shirts]]>
+                <![CDATA[Prasad1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dabhole1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[psd1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pwd@1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pune1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kolhapur1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[412001]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazonsearch_twodimentional -->
-        <test-method signature="amazonsearch_twodimentional(java.lang.String)[pri:0, instance:com.psd.selenium.Amazon_Search_TwoDimentional2@175c2241]" started-at="2025-10-12T11:17:23 IST" name="amazonsearch_twodimentional" data-provider="searchdetails" finished-at="2025-10-12T11:17:35 IST" duration-ms="12083" status="PASS">
+        </test-method> <!-- getchregidetails_twodimentional -->
+        <test-method signature="getchregidetails_twodimentional(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.psd.selenium.Growtech_Regi_TwoDimentional@411f53a0]" started-at="2025-10-12T18:31:18 IST" name="getchregidetails_twodimentional" data-provider="gtechregidetails" finished-at="2025-10-12T18:31:35 IST" duration-ms="17459" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Womens Shoes]]>
+                <![CDATA[Prasad2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dabhole2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[psd2@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pwd@2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pune2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kolhapur2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[412002]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazonsearch_twodimentional -->
-        <test-method signature="amazonsearch_twodimentional(java.lang.String)[pri:0, instance:com.psd.selenium.Amazon_Search_TwoDimentional2@175c2241]" started-at="2025-10-12T11:17:35 IST" name="amazonsearch_twodimentional" data-provider="searchdetails" finished-at="2025-10-12T11:17:51 IST" duration-ms="16374" status="PASS">
+        </test-method> <!-- getchregidetails_twodimentional -->
+        <test-method signature="getchregidetails_twodimentional(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.psd.selenium.Growtech_Regi_TwoDimentional@411f53a0]" started-at="2025-10-12T18:31:35 IST" name="getchregidetails_twodimentional" data-provider="gtechregidetails" finished-at="2025-10-12T18:31:47 IST" duration-ms="11932" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Sandals]]>
+                <![CDATA[Prasad3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dabhole3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[psd3@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pwd@3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pune3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kolhapur3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[412003]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazonsearch_twodimentional -->
-        <test-method signature="amazonsearch_twodimentional(java.lang.String)[pri:0, instance:com.psd.selenium.Amazon_Search_TwoDimentional2@175c2241]" started-at="2025-10-12T11:17:51 IST" name="amazonsearch_twodimentional" data-provider="searchdetails" finished-at="2025-10-12T11:18:08 IST" duration-ms="16381" status="PASS">
+        </test-method> <!-- getchregidetails_twodimentional -->
+        <test-method signature="getchregidetails_twodimentional(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.psd.selenium.Growtech_Regi_TwoDimentional@411f53a0]" started-at="2025-10-12T18:31:47 IST" name="getchregidetails_twodimentional" data-provider="gtechregidetails" finished-at="2025-10-12T18:31:58 IST" duration-ms="10119" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Hand Gloves]]>
+                <![CDATA[Prasad4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dabhole4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[psd4@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pwd@4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pune4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kolhapur4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[412004]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazonsearch_twodimentional -->
-        <test-method signature="amazonsearch_twodimentional(java.lang.String)[pri:0, instance:com.psd.selenium.Amazon_Search_TwoDimentional2@175c2241]" started-at="2025-10-12T11:18:08 IST" name="amazonsearch_twodimentional" data-provider="searchdetails" finished-at="2025-10-12T11:18:23 IST" duration-ms="15571" status="PASS">
+        </test-method> <!-- getchregidetails_twodimentional -->
+        <test-method signature="getchregidetails_twodimentional(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.psd.selenium.Growtech_Regi_TwoDimentional@411f53a0]" started-at="2025-10-12T18:31:58 IST" name="getchregidetails_twodimentional" data-provider="gtechregidetails" finished-at="2025-10-12T18:32:06 IST" duration-ms="8832" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Headphones]]>
+                <![CDATA[Prasad5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dabhole5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[psd5@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pwd@5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pune5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kolhapur5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[412005]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazonsearch_twodimentional -->
-      </class> <!-- com.psd.selenium.Amazon_Search_TwoDimentional2 -->
+        </test-method> <!-- getchregidetails_twodimentional -->
+      </class> <!-- com.psd.selenium.Growtech_Regi_TwoDimentional -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
