@@ -29,8 +29,10 @@ public class Amazon_MultipleWindows {
 		WebElement e3 = driver.findElement(By.id("add-to-cart-button"));
 		e3.click();
 
-		Thread.sleep(3000);
+		Thread.sleep(7000);
 		driver.quit();
 	}
 
 }
+
+

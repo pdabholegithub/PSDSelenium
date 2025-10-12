@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-12T11:17:06 IST" name="Default suite" finished-at="2025-10-12T11:18:23 IST" duration-ms="77302">
+    <groups>
+    </groups>
+    <test started-at="2025-10-12T11:17:06 IST" name="Default test" finished-at="2025-10-12T11:18:23 IST" duration-ms="77302">
+      <class name="com.psd.selenium.Amazon_Search_TwoDimentional2">
+        <test-method signature="amazonsearch_twodimentional(java.lang.String)[pri:0, instance:com.psd.selenium.Amazon_Search_TwoDimentional2@175c2241]" started-at="2025-10-12T11:17:06 IST" name="amazonsearch_twodimentional" data-provider="searchdetails" finished-at="2025-10-12T11:17:23 IST" duration-ms="16849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mens T shirts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonsearch_twodimentional -->
+        <test-method signature="amazonsearch_twodimentional(java.lang.String)[pri:0, instance:com.psd.selenium.Amazon_Search_TwoDimentional2@175c2241]" started-at="2025-10-12T11:17:23 IST" name="amazonsearch_twodimentional" data-provider="searchdetails" finished-at="2025-10-12T11:17:35 IST" duration-ms="12083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Womens Shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonsearch_twodimentional -->
+        <test-method signature="amazonsearch_twodimentional(java.lang.String)[pri:0, instance:com.psd.selenium.Amazon_Search_TwoDimentional2@175c2241]" started-at="2025-10-12T11:17:35 IST" name="amazonsearch_twodimentional" data-provider="searchdetails" finished-at="2025-10-12T11:17:51 IST" duration-ms="16374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandals]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonsearch_twodimentional -->
+        <test-method signature="amazonsearch_twodimentional(java.lang.String)[pri:0, instance:com.psd.selenium.Amazon_Search_TwoDimentional2@175c2241]" started-at="2025-10-12T11:17:51 IST" name="amazonsearch_twodimentional" data-provider="searchdetails" finished-at="2025-10-12T11:18:08 IST" duration-ms="16381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hand Gloves]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonsearch_twodimentional -->
+        <test-method signature="amazonsearch_twodimentional(java.lang.String)[pri:0, instance:com.psd.selenium.Amazon_Search_TwoDimentional2@175c2241]" started-at="2025-10-12T11:18:08 IST" name="amazonsearch_twodimentional" data-provider="searchdetails" finished-at="2025-10-12T11:18:23 IST" duration-ms="15571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Headphones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonsearch_twodimentional -->
+      </class> <!-- com.psd.selenium.Amazon_Search_TwoDimentional2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
