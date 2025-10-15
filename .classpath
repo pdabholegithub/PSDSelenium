@@ -9,5 +9,14 @@
 	<classpathentry kind="lib" path="C:/Users/prasad.dabhole/Downloads/selenium-server-4.35.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/prasad.dabhole/Desktop/data/Desktop/Prasad_Dabhole/Prasad Docs/Setups/eclipse-java-2025-06-R-win32-x86_64/eclipse/plugins/com.beust.jcommander_1.83.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/prasad.dabhole/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar" sourcepath="C:/Users/prasad.dabhole/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-api"/>
+			<attribute name="maven.version" value="3.141.59"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
